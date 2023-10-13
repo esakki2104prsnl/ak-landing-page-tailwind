@@ -1,17 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Ajith Kuamr Landing-page</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="./public/css/main.css" />
+  <link rel="stylesheet" href="./dist/assets/index-a7af0b59.css" />
+
 </head>
 
-<body>
-  <div id="app"></div>
-  <script type="module" src="/main.js"></script>
-  <h1>Hi</h1>
+<body class="min-h-screen">
+  <!-- max-w-lg mx-auto -->
+
+  <nav class="bg-black text-white drop-shadow-xl sticky top-0">
+    <div class="flex items-center justify-between p-5">
+      <h1 class="ak-logo ">Ajith Kumar</h1>
+      <ol class="flex items-center justify-center space-x-10 text-xl font-semibold">
+        <a href="#" class="flex items-center space-x-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 14">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="3.5" cy="3.5" r="3" />
+              <circle cx="10.5" cy="4.5" r="2" />
+              <rect width="7.5" height="4.5" x="3.5" y="9" rx="1" />
+              <path d="M13.5 10v2.5" />
+            </g>
+          </svg>
+          <li>Movies</li>
+        </a>
+        <a href="#" class="flex items-center space-x-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M12 8.5H7L4 11H3c-1.11 0-2 .89-2 2v3h2.17c.43 1.2 1.56 2 2.83 2s2.4-.8 2.82-2h6.35c.43 1.2 1.56 2 2.83 2s2.4-.8 2.82-2H23v-1c0-1.11-1.03-1.47-2-2l-9-4.5M5.25 12l2.25-2h4l4 2H5.25M6 13.5A1.5 1.5 0 0 1 7.5 15A1.5 1.5 0 0 1 6 16.5A1.5 1.5 0 0 1 4.5 15A1.5 1.5 0 0 1 6 13.5m12 0a1.5 1.5 0 0 1 1.5 1.5a1.5 1.5 0 0 1-1.5 1.5a1.5 1.5 0 0 1-1.5-1.5a1.5 1.5 0 0 1 1.5-1.5Z" />
+          </svg>
+          <li>Cars</li>
+        </a>
+        <a href="#">
+          <li>Bikes</li>
+        </a>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- Personal Info -->
+  <section class="p-5 bg-gradient-to-br from-red-600  to-pink-900 flex gap-3">
+    <div class="border-red-400 min-w-fit ">
+      <img src="./public/images/ak-hero-pic.jpg" alt="ajith-kumar" class=" rounded-xl " width="300" height="450" />
+      <div class="pt-5">
+        <div class="bg-white  rounded-md px-2 font-medium">
+          <h2 class="font-bold text-center p-2">Personal Information</h2>
+
+          <div class="p-2 flex
+          items-center space-x-2">
+            <h4 class="font-bold">Date of Birth:</h4>
+            <p> 1 May 1971 </p>
+          </div>
+          <div class="p-2 flex
+          items-center space-x-2">
+            <h4 class="font-bold">Age:</h4>
+            <p> 52 Years</p>
+          </div>
+
+          <div class="p-2 flex
+          items-center space-x-2">
+            <h4 class="font-bold">Gender:</h4>
+            <p> Male</p>
+          </div>
+          <div class="p-2 flex
+          items-center space-x-2">
+            <h4 class="font-bold">Movies:</h4>
+            <p> 61 completed </p>
+          </div>
+          <div class="p-2 flex
+          items-center space-x-2">
+            <h4 class="font-bold">Place of Birth:</h4>
+            <p> Hyderabad, AP, India</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Biography -->
+    <div class="min-w-fit">
+      <h1 class="ak-bio">Ajith Kumar Biography</h1>
+
+      <div class="pl-16 pt-4 text-white font-medium">
+        <p class="pb-2">Ajith Kumar is an Indian film actor who works mainly in Tamil cinema. In addition to his acting,
+          Ajith Kumar
+          in
+          a sabbatical, participated in the 2004 British Formula 3 season as a Formula Two racing driver and was ranked
+          the third best motor car driver in India at his peak.
+        </p>
+
+        <p>
+          He began his career as a supporting actor in a Telugu film before gaining critical recognition in the Tamil
+          thriller Aasai (1995). A succession of high-grossing films followed where Ajith was usually depicted as a
+          romantic hero, with Kadhal Kottai (1996) and Kadhal Mannan (1998) being the most notable. He later forayed
+          into
+          method acting, as seen in Vaali (1999), Mugavaree (2000), Kandukondain Kandukondain (2000) and Citizen (2001)
+          before establishing himself as an action hero with popular films including Amarkalam (1999), Dheena (2001),
+          Villain (2002), Varalaru (2006) and Billa (2007). He has won three Filmfare Best Actor Awards in Tamil, all
+          for
+          films which showcased him in multiple roles. In 2014, Ajith Kumar was listed in Forbes India's Top 100
+          Celebrities.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
 </body>
 
 </html>
