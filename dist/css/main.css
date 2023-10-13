@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ak-logo{
+    @apply font-dancingScript text-5xl pl-5   
+}
+.ak-bio{
+    @apply font-dancingScript text-6xl pl-10 pt-5    
+}
+
