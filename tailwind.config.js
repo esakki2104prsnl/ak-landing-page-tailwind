@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "dancingScript": "'Dancing Script', cursive;"
+        "dancingScript": "'Dancing Script', cursive;",
+        "jose":"'Josefin Sans', sans-serif;"
       },
     },
   },
