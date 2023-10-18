@@ -9,40 +9,53 @@
 
   <!-- Link CSS -->
   
-  <!-- <link rel="stylesheet" href="./dist/assets/index-7fe91535.css" /> -->
-  <link rel="stylesheet" href="/assets/index-cb210285.css">
+  <link rel="stylesheet" href="./dist/assets/index-cb210285.css" />
+  <link rel="stylesheet" href="/assets/index-fb1a6c26.css">
 </head>
 
 <body class="min-h-screen">
 
-  <nav class="bg-black text-white drop-shadow-xl sticky top-0 p-5 sm:p-8">
+  <nav class="bg-black text-white drop-shadow-xl z-10 sticky top-0 p-5 ">
     <div class="flex items-center justify-between sm:px-20">
       <a href="./index.html">
         <h1 class="flex-1 font-jose font-extrabold text-3xl sm:text-5xl">AK Bio</h1>
       </a>
-      <ol class="flex items-center justify-center text-sm sm:text-lg space-x-5 sm:space-x-10 font-semibold">
-        <a href="#" class="flex items-center ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 14">
-            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="3.5" cy="3.5" r="3" />
-              <circle cx="10.5" cy="4.5" r="2" />
-              <rect width="7.5" height="4.5" x="3.5" y="9" rx="1" />
-              <path d="M13.5 10v2.5" />
-            </g>
-          </svg>
-          <li>Movies</li>
-        </a>
-        <a href="#" class="flex items-center space-x-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+      <div class="block sm:hidden">
+        <a href="https://github.com/esakki2104prsnl/ak-landing-page-tailwind" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+            class="text-gray-500 hover:text-white">
             <path fill="currentColor"
-              d="M12 8.5H7L4 11H3c-1.11 0-2 .89-2 2v3h2.17c.43 1.2 1.56 2 2.83 2s2.4-.8 2.82-2h6.35c.43 1.2 1.56 2 2.83 2s2.4-.8 2.82-2H23v-1c0-1.11-1.03-1.47-2-2l-9-4.5M5.25 12l2.25-2h4l4 2H5.25M6 13.5A1.5 1.5 0 0 1 7.5 15A1.5 1.5 0 0 1 6 16.5A1.5 1.5 0 0 1 4.5 15A1.5 1.5 0 0 1 6 13.5m12 0a1.5 1.5 0 0 1 1.5 1.5a1.5 1.5 0 0 1-1.5 1.5a1.5 1.5 0 0 1-1.5-1.5a1.5 1.5 0 0 1 1.5-1.5Z" />
+              d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2z"
+              clip-rule="evenodd" />
           </svg>
-          <li>Cars</li>
         </a>
-        <a href="#">
-          <li>Bikes</li>
-        </a>
-      </ol>
+      </div>
+      <div class="hidden sm:block">
+        <ol class="flex items-center justify-center text-sm space-x-3  sm:text-lg sm:space-x-20 font-semibold ">
+          <a href="#ak-movie" class="flex items-center space-x-2" class="scroll-smooth focus:scroll-auto ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M18.001 20H20v2h-8C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10a9.985 9.985 0 0 1-3.999 8ZM12 10a2 2 0 1 0 0-4a2 2 0 0 0 0 4Zm-4 4a2 2 0 1 0 0-4a2 2 0 0 0 0 4Zm8 0a2 2 0 1 0 0-4a2 2 0 0 0 0 4Zm-4 4a2 2 0 1 0 0-4a2 2 0 0 0 0 4Z" />
+            </svg>
+            <li class="hover:underline">Movies</li>
+          </a>
+          <a href="#" class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M12 8.5H7L4 11H3c-1.11 0-2 .89-2 2v3h2.17c.43 1.2 1.56 2 2.83 2s2.4-.8 2.82-2h6.35c.43 1.2 1.56 2 2.83 2s2.4-.8 2.82-2H23v-1c0-1.11-1.03-1.47-2-2l-9-4.5M5.25 12l2.25-2h4l4 2H5.25M6 13.5A1.5 1.5 0 0 1 7.5 15A1.5 1.5 0 0 1 6 16.5A1.5 1.5 0 0 1 4.5 15A1.5 1.5 0 0 1 6 13.5m12 0a1.5 1.5 0 0 1 1.5 1.5a1.5 1.5 0 0 1-1.5 1.5a1.5 1.5 0 0 1-1.5-1.5a1.5 1.5 0 0 1 1.5-1.5Z" />
+            </svg>
+            <li class="hover:underline">Cars</li>
+          </a>
+          <a href="#" class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M8.365 10L11.2 8h3.492L13.6 5H11V3h4l1.092 3H20v3h-2.816l1.456 4.002a4.5 4.5 0 1 1-1.985.392L15.419 10h-.947l-1.582 5.87l-2.925 1.069A4.5 4.5 0 1 1 4 13.256V12H2v-2h6.365ZM5.5 20a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5Zm13 0a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5Z" />
+            </svg>
+            <li class="hover:underline">Bikes</li>
+          </a>
+        </ol>
+      </div>
+
     </div>
   </nav>
 
@@ -51,135 +64,227 @@
     <section class="px-5 py-5 sm:px-20 sm:py-5 bg-gradient-to-br from-yellow-700 to-pink-900 ">
       <div class="flex gap-3">
         <div class="border-red-400 min-w-fit flex">
-          <img src="/assets/ak-hero-pic-a44a1dbc.jpg" alt="ajith-kumar" class="rounded-xl w-72 h-72 " width="250" />
+          <img src="/assets/ak-hero-pic-a44a1dbc.jpg" alt="ajith-kumar" class="rounded-xl w-60 h-52 sm:w-72  sm:h-72 "
+            width="250" />
           <div class="">
-            <h1 class="font-dancingScript text-xl pl-5 pt-5 sm:text-6xl sm:pl-10 sm:pt-5 ">Ajith Kumar Biography</h1>
-
-            <div class="pl-8 pt-2 text-xs
-             sm:pl-16 sm:pt-4 sm:text-lg text-white">
-              <p class="pb-2 font-medium">
+            <h1 class="font-dancingScript text-2xl pl-6 pt-5 font-extrabold sm:text-6xl  sm:pt-5 ">Ajith Kumar
+              Biography
+            </h1>
+            <div class="pl-7 pt-2 text-xs
+              sm:pt-4 sm:text-lg text-white">
+              <p class="pb-2">
                 Ajith Kumar is an Indian film actor who works mainly in Tamil
                 cinema. In addition to his acting, Ajith Kumar in a sabbatical,
                 participated in the 2004 British Formula 3 season as a Formula Two
                 racing driver and was ranked the third best motor car driver in
                 India at his peak.
               </p>
-              <!-- 
-              <h2 class="text-black font-bold">Career</h2>
-              <p class="px-3">
-                He began his career as a supporting actor in a Telugu film before
-                gaining critical recognition in the Tamil thriller Aasai (1995). A
-                succession of high-grossing films followed where Ajith was usually
-                depicted as a romantic hero, with Kadhal Kottai (1996) and Kadhal
-                Mannan (1998) being the most notable. He later forayed into method
-                acting, as seen in Vaali (1999), Mugavaree (2000), Kandukondain
-                Kandukondain (2000) and Citizen (2001) before establishing himself
-                as an action hero with popular films including Amarkalam (1999),
-                Dheena (2001), Villain (2002), Varalaru (2006) and Billa (2007). He
-                has won three Filmfare Best Actor Awards in Tamil, all for films
-                which showcased him in multiple roles. In 2014, Ajith Kumar was
-                listed in Forbes India's Top 100 Celebrities.
-              </p> -->
+
+              <div class="hidden sm:block">
+                <div class="flex items-center  sm:flex-row sm:space-x-2 sm:p-1">
+                  <div class="bg-[#f34413e3] text-black rounded p-2 w-fit">
+                    <p class="text-sm"><strong>Nick Name: </strong> AK, Thala, Ultimate Star, kadhal Mannan</p>
+                  </div>
+                  <div class="bg-[#f34413e3] text-black rounded p-2 w-fit">
+                    <p class="text-sm"><strong>Age: </strong>52 Years</p>
+                  </div>
+
+                  <div class="bg-[#f34413e3] text-black rounded p-2 w-fit">
+                    <p class="text-sm"><strong>Date of Birth: </strong>1 May 1971</p>
+                  </div>
+                </div>
+                <div class="flex items-center  sm:flex-row sm:space-x-2 sm:p-2">
+                  <div class="bg-[#f34413e3] text-black rounded p-2 w-fit">
+                    <p class="text-sm"><strong>Parents: </strong>
+                      <a href="https://www.google.com/search?sca_esv=574054633&sxsrf=AM9HkKm2vqhxgDCRjAaCmNZ-0Wio5cZ-hA:1697551195631&q=P.+Subramaniam&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFBAW5-Pk-X87os58slafSQg6-dRbE4AhBeaP0btPGxncJdCuxZ5p1UtgSrIezCIa0yTYf6gwVNuz9vg7_b70JxE6N3K3G6P2IBTmz0Z1vFcnU3ylA3JaleHwP2mumlJQdCf_1O5-4yTgdJGYC_AbUaoVMdRVR_PEjOxWCHSSlhCy5HGpsFXkTjYvViKYJMuJPaydIcnN41GwWy6_0rXELAWsNWCae3ViMuQG5fw9pdEfKUSbDg%3D%3D&sa=X&ved=2ahUKEwjDkYOAn_2BAxXT2TgGHXKzBKkQmxMoAHoECCMQAg&biw=1366&bih=689&dpr=1"
+                        target="_blank" class="text-white hover:text-rose-300">
+                        P.Subramaniam,
+                      </a>
+                      <a href="https://www.google.com/search?sca_esv=574054633&sxsrf=AM9HkKm2vqhxgDCRjAaCmNZ-0Wio5cZ-hA:1697551195631&q=Mohini+Subramaniam&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFBJu_NhBZg2MRq4aD04MYAgCGU7ieQNJ15xLfN9eAx7uXqr0s34f0qxnnosskJWEKDPYAWAxbYn9PQ0JtxT-txbrgbuB8QJsBXW4GymM0ugeiCHV6vR4ahnmqrb9oPQGq47vyRm-njhLTu3q0_mFPuWCDrJrI_LlTV_K1yNUy1rZU199-8WcfAIYN4ly6nV_jxVResfwz4oiOGwHdoDdeIbtqdiEoIf3fLMIDzeQktJhvxGPYQ%3D%3D&sa=X&ved=2ahUKEwjDkYOAn_2BAxXT2TgGHXKzBKkQmxMoAXoECCMQAw&biw=1366&bih=689&dpr=1"
+                        target="_blank" class="text-white hover:text-rose-300">
+                        Mohini
+                      </a>
+                    </p>
+                  </div>
+                  <div class="bg-[#f34413e3] text-black rounded p-2 w-fit">
+                    <p class="text-sm"><strong>Siblings: </strong>
+                      <a href="https://www.google.com/search?sca_esv=573962864&sxsrf=AM9HkKlkK62jGep5tA7vBUGQYKTQAD0lIA:1697546276417&q=Anup+Kumar&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFO7wa-UAgv40maYAvbne0FXlfGVe6fg__guOt9uvB-qEPlpdTzHbIFdhybT_TTQCrMZg3NT8YTzK3X1zJjr1Bx8PP7_yBuPC7JgEcUZrbPL4wAKxBzHs3PWsNrHk2yr_jMCmdOP1NkPKA0CtmHyyi-Kpfy6a04c64imriUalCveMMvpbAIHTk02AVtykxMaLB61FxclPLebFTC9bf5NjAOFYHZqWZLbCG0qgAu2eeGzEH0ggOA%3D%3D&sa=X&ved=2ahUKEwjtqa7WjP2BAxUKbmwGHU6TAY0QmxMoAHoECCIQAg&biw=1366&bih=689&dpr=1"
+                        target="_blank" class="text-white hover:text-rose-300">
+                        Anup Kumar,
+                      </a>
+                      <a href="https://www.google.com/search?sca_esv=573962864&sxsrf=AM9HkKlkK62jGep5tA7vBUGQYKTQAD0lIA:1697546276417&q=Anil+Kumar&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFOP9E7G8Gkg3QsnbYtt7hMFaZXpOr0wwOSw_3SnIoZC7o4g04kRFpz3uxATWbT08tQ3FfkYFcNwNuAKl4Gt3v6nrcUUsizszY9qQaP6a-WSeADqDJAyWqoyZlPR7bu4XytlLkD06XaHQ5sLpbCgOwA4eNe_M-ZX68cLFE3VrL9GLuq94oClH17L8Fq6Xwa22N02rD54ATeuvaJc9m38vBSlIRO3Q2NYiqedJWd9wGYcHrUNeng%3D%3D&sa=X&ved=2ahUKEwjtqa7WjP2BAxUKbmwGHU6TAY0QmxMoAXoECCIQAw&biw=1366&bih=689&dpr=1"
+                        target="_blank" class="text-white hover:text-rose-300">
+                        Anil Kumar
+                      </a>
+                    </p>
+                  </div>
+                  <div class="bg-[#f34413e3] text-black rounded p-2 w-fit">
+                    <p class="text-sm"><strong>Spouse: </strong>
+                      <a href="https://www.google.com/search?sca_esv=574054633&sxsrf=AM9HkKm2vqhxgDCRjAaCmNZ-0Wio5cZ-hA:1697551195631&q=Baby+Shalini&si=ALGXSlYh1-GEPndq7qMo--O-TPixQtNN4JMroSxgItz5kq0stLLNmUcFStleQpNUDG110WEHwXHVId7Upt7wbwfOMmDnYwTMEu7xSCrwGTE__dOZ_i0IEtNPWCRhk1mX2OyZpZbeXvtrsKar6G0ai2wR29GUs65EW6YzIEbaj7ve3bciy_w8223eTTdixovsAyn34ddzBxh-&sa=X&ved=2ahUKEwjDkYOAn_2BAxXT2TgGHXKzBKkQmxMoAHoECCEQAg&biw=1366&bih=689&dpr=1"
+                        target="_blank" class="text-white hover:text-rose-300">
+                        Shalini
+                      </a>
+                    </p>
+                  </div>
+
+                  <div class="bg-[#f34413e3] text-black rounded p-2 w-fit">
+                    <p class="text-sm"><strong>Kids: </strong><a
+                        href="https://www.google.com/search?q=ajith+kumar+kids+pic&oq=ajith+kumar+kids+pic&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYhgMYigUyCggDEAAYhgMYigUyCggEEAAYhgMYigXSAQg2NzI2ajBqNKgCALACAA&sourceid=chrome&ie=UTF-8"
+                        target="_blank" class="text-white hover:text-rose-300">2 Years</a></p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-    </section>
+      </div>
 
-    <!-- Hit Movies -->
-    <section class="bg-[#ecce45]">
-      <h1 class="p-5 text-center font-extrabold text-2xl hover:underline">
-        Ajith Kuamr Hit Movies
-      </h1>
-
-      <div class="flex items-center gap-2 pb-5 ">
-        <div class="text-center p-2 transform hover:scale-110 hover:cursor-pointer ">
-          <img src="/assets/Billa_2007-7726784d.jpg" alt="billa" class="rounded-lg w-60 h-72 object-cover" />
-          <div class="pt-2">
-            <p class="bg-[#F96167] rounded-full font-semibold p-1">
-              Billa
-            </p>
+      <div class="block sm:hidden p-2">
+        <div class="flex items-center flex-col space-y-2  p-1 ">
+          <div class="bg-[#f34413e3] text-black rounded  w-full">
+            <p class="text-sm p-2"><strong>Nick Name: </strong> AK, Thala, Ultimate Star, kadhal Mannan</p>
+          </div>
+          <div class="bg-[#f34413e3] text-black rounded p-1 w-full">
+            <p class="text-sm"><strong>Date of Birth: </strong>1 May 1971</p>
+          </div>
+          <div class="bg-[#f34413e3] text-black rounded p-1 w-full">
+            <p class="text-sm"><strong>Age: </strong>52 Years</p>
           </div>
         </div>
-
-        <div class="text-center p-2 hover:cursor-pointer">
-          <img src="/assets/mangatha-8f01a479.jpg" alt="mangatha" class="rounded-lg w-60 h-72 object-cover" />
-          <div class="pt-2">
-            <p class="bg-[#F96167] rounded-full font-semibold p-1">
-              Mangatha
+        <div class="flex items-center flex-col space-y-2 p-1 w-full">
+          <div class="bg-[#f34413e3] text-black rounded p-1 w-full">
+            <p class="text-sm"><strong>Siblings: </strong>
+              <a href="https://www.google.com/search?sca_esv=573962864&sxsrf=AM9HkKlkK62jGep5tA7vBUGQYKTQAD0lIA:1697546276417&q=Anup+Kumar&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFO7wa-UAgv40maYAvbne0FXlfGVe6fg__guOt9uvB-qEPlpdTzHbIFdhybT_TTQCrMZg3NT8YTzK3X1zJjr1Bx8PP7_yBuPC7JgEcUZrbPL4wAKxBzHs3PWsNrHk2yr_jMCmdOP1NkPKA0CtmHyyi-Kpfy6a04c64imriUalCveMMvpbAIHTk02AVtykxMaLB61FxclPLebFTC9bf5NjAOFYHZqWZLbCG0qgAu2eeGzEH0ggOA%3D%3D&sa=X&ved=2ahUKEwjtqa7WjP2BAxUKbmwGHU6TAY0QmxMoAHoECCIQAg&biw=1366&bih=689&dpr=1"
+                target="_blank" class="text-white hover:text-rose-300">
+                Anup Kumar,
+              </a>
+              <a href="https://www.google.com/search?sca_esv=573962864&sxsrf=AM9HkKlkK62jGep5tA7vBUGQYKTQAD0lIA:1697546276417&q=Anil+Kumar&si=ALGXSlYzFQQn5id74gU-GPAR8UsllKNebHx5zj2txQsc1FfqFOP9E7G8Gkg3QsnbYtt7hMFaZXpOr0wwOSw_3SnIoZC7o4g04kRFpz3uxATWbT08tQ3FfkYFcNwNuAKl4Gt3v6nrcUUsizszY9qQaP6a-WSeADqDJAyWqoyZlPR7bu4XytlLkD06XaHQ5sLpbCgOwA4eNe_M-ZX68cLFE3VrL9GLuq94oClH17L8Fq6Xwa22N02rD54ATeuvaJc9m38vBSlIRO3Q2NYiqedJWd9wGYcHrUNeng%3D%3D&sa=X&ved=2ahUKEwjtqa7WjP2BAxUKbmwGHU6TAY0QmxMoAXoECCIQAw&biw=1366&bih=689&dpr=1"
+                target="_blank" class="text-white hover:text-rose-300">
+                Anil Kumar
+              </a>
             </p>
           </div>
-        </div>
-
-        <div class="text-center p-2 hover:cursor-pointer ">
-          <img src="/assets/nkp-e967f231.jpg" alt="nkp" class="rounded-lg w-60 h-72 object-cover" />
-          <div class="pt-2">
-            <p class="bg-[#F96167] rounded-full font-semibold p-1">
-              Ner Konda Paruvai
+          <div class="bg-[#f34413e3] text-black rounded p-1 w-full">
+            <p class="text-sm"><strong>Spouse: </strong>
+              <a href="https://www.google.com/search?sca_esv=574054633&sxsrf=AM9HkKm2vqhxgDCRjAaCmNZ-0Wio5cZ-hA:1697551195631&q=Baby+Shalini&si=ALGXSlYh1-GEPndq7qMo--O-TPixQtNN4JMroSxgItz5kq0stLLNmUcFStleQpNUDG110WEHwXHVId7Upt7wbwfOMmDnYwTMEu7xSCrwGTE__dOZ_i0IEtNPWCRhk1mX2OyZpZbeXvtrsKar6G0ai2wR29GUs65EW6YzIEbaj7ve3bciy_w8223eTTdixovsAyn34ddzBxh-&sa=X&ved=2ahUKEwjDkYOAn_2BAxXT2TgGHXKzBKkQmxMoAHoECCEQAg&biw=1366&bih=689&dpr=1"
+                target="_blank" class="text-white hover:text-rose-300">
+                Shalini
+              </a>
             </p>
           </div>
-        </div>
 
-        <div class="text-center p-2 hover:cursor-pointer ">
-          <img src="/assets/vaalee-c5dbebfb.jpg" alt="vaalee" class="rounded-lg w-60 h-72 object-cover" />
-          <div class="pt-2">
-            <p class="bg-[#F96167] rounded-full font-semibold p-1">
-              Vaalee
-            </p>
-          </div>
-        </div>
-
-        <div class="text-center p-2 hover:cursor-pointer ">
-          <img src="/assets/valimai-3abd359f.jpg" alt="valimai" class="rounded-lg w-60 h-72 object-cover" />
-          <div class="pt-2">
-            <p class="bg-[#F96167] rounded-full font-semibold p-1">
-              Valimai
-            </p>
-          </div>
-        </div>
-
-
-        <div class="text-center p-2 hover:cursor-pointer">
-          <img src="/assets/vedalam-99853db0.jpg" alt="vedalam" class="rounded-lg w-60 h-72 object-cover" />
-          <div class="pt-2">
-            <p class="bg-[#F96167] rounded-full font-semibold p-1">
-              Vedalam
-            </p>
-          </div>
-        </div>
-
-        <div class="text-center p-2 hover:cursor-pointer">
-          <img src="/assets/veeram-6d6af948.jpg" alt="veeram" class="rounded-lg w-60 h-72 object-cover" />
-          <div class="pt-2">
-            <p class="bg-[#F96167] rounded-full font-semibold p-1">
-              Veeram
-            </p>
+          <div class="bg-[#f34413e3] text-black rounded p-1 w-full">
+            <p class="text-sm"><strong>Kids: </strong><a
+                href="https://www.google.com/search?q=ajith+kumar+kids+pic&oq=ajith+kumar+kids+pic&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCggCEAAYhgMYigUyCggDEAAYhgMYigUyCggEEAAYhgMYigXSAQg2NzI2ajBqNKgCALACAA&sourceid=chrome&ie=UTF-8"
+                target="_blank" class="text-white hover:text-rose-300">2 Years</a></p>
           </div>
         </div>
       </div>
+    </section>
+
+
+    <!-- Hit Movies -->
+    <section class="bg-[#ecce45] " id="ak-movie">
+      <div class="p-5 text-center font-extrabold text-2xl ">
+        <a href="https://www.imdb.com/name/nm0015001/?ref_=fn_al_nm_1" target="_blank" class="hover:underline">Ajith
+          Kumar Hit Movies</a>
+      </div>
+
+      <div class="mx-28 my-5 grid space-y-2 sm:space-y-0 sm:grid-cols-4 sm:gap-5  ">
+
+        <div class="items-center justify-center bg-rose-400  hover:bg-rose-500  border border-gray-700 rounded w-fit
+        transition transform  hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none 
+        ">
+          <a href="https://www.imdb.com/title/tt9675716/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_neerkond" target="_blank">
+            <img src="/assets/nkp-e967f231.jpg" alt="Nerkonda Paarvai" class="object-fill w-60 h-72">
+            <h2 class="rounded-full font-bold p-1 text-center">Nerkonda Paarvai (2019)</h2>
+          </a>
+        </div>
+        <div class="items-center justify-center bg-rose-400  hover:bg-rose-500  border border-gray-700 rounded w-fit
+        transition transform  hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none 
+        ">
+          <a href="https://www.imdb.com/title/tt1705772/?ref_=fn_al_tt_1" target="_blank">
+            <img src="/assets/mangatha-8f01a479.jpg" alt="  mankatha" class="object-fill w-60 h-72">
+            <h2 class="rounded-full font-bold p-1 text-center"> Mankatha (2011)</h2>
+          </a>
+        </div>
+        <div class="items-center justify-center bg-rose-400  hover:bg-rose-500  border border-gray-700 rounded w-fit
+        transition transform  hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none 
+        ">
+          <a href="https://www.imdb.com/title/tt0920457/?ref_=fn_al_tt_4" target="_blank">
+            <img src="/assets/Billa_2007-7726784d.jpg" alt="billa" class="object-fill w-60 h-72">
+            <h2 class="rounded-full font-bold p-1 text-center">Billa (2007)</h2>
+          </a>
+        </div>
+        <div class="items-center justify-center bg-rose-400  hover:bg-rose-500  border border-gray-700 rounded w-fit
+        transition transform  hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none 
+        ">
+          <a href="https://www.imdb.com/title/tt0368400/?ref_=fn_al_tt_1" target="_blank">
+            <img src="/assets/vaalee-c5dbebfb.jpg" alt="vaalee" class="object-fill w-60 h-72">
+            <h2 class="rounded-full font-bold p-1 text-center">Vaalee (1999)</h2>
+          </a>
+        </div>
+        <div class="items-center justify-center bg-rose-400  hover:bg-rose-500  border border-gray-700 rounded w-fit
+        transition transform  hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none 
+        ">
+          <a href="https://www.imdb.com/title/tt10806040/?ref_=fn_al_tt_1" target="_blank">
+            <img src="/assets/valimai-3abd359f.jpg" alt="valimai" class="object-fill w-60 h-72">
+            <h2 class="rounded-full font-bold p-1 text-center">Valimai (2022)</h2>
+          </a>
+        </div>
+        <div class="items-center justify-center bg-rose-400  hover:bg-rose-500  border border-gray-700 rounded w-fit
+        transition transform  hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none 
+        ">
+          <a href="https://www.imdb.com/title/tt5178278/?ref_=fn_al_tt_1" target="_blank">
+            <img src="/assets/vedalam-99853db0.jpg" alt="vedalam" class="object-fill w-60 h-72">
+            <h2 class="rounded-full font-bold p-1 text-center">Vedalam (2015)</h2>
+          </a>
+        </div>
+        <div class="items-center justify-center bg-rose-400  hover:bg-rose-500  border border-gray-700 rounded w-fit
+        transition transform  hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none 
+        ">
+          <a href="https://www.imdb.com/title/tt3320578/?ref_=fn_al_tt_1" target="_blank">
+            <img src="/assets/veeram-6d6af948.jpg" alt="  veeram" class="object-fill w-60 h-72">
+            <h2 class="rounded-full font-bold p-1 text-center"> Veeram (2014)</h2>
+          </a>
+        </div>
+        <div class="items-center justify-center bg-rose-400  hover:bg-rose-500  border border-gray-700 rounded w-fit
+        transition transform  hover:-translate-y-2 motion-reduce:transition-none motion-reduce:hover:transform-none 
+        ">
+          <a href="https://www.imdb.com/title/tt6878378/?ref_=nv_sr_srsg_0_tt_5_nm_3_q_vivegam" target="_blank">
+            <img src="/assets/vivegam-9f4ca8c3.jpg" alt="vivegam" class="object-fill w-60 h-72">
+            <h2 class="rounded-full font-bold p-1 text-center">Vivegam (2017)</h2>
+          </a>
+        </div>
+      </div>
+
 
       <hr class="text-gray-400 shadow-lg">
       <!-- Video Section -->
-      <div class="lg:px-40 py-10 sm:px-8">
-        <h1 class="font-semibold text-xl">Thunivu Mass Entry</h1>
-        <div class=" flex items-center p-2">
-          <div class="bg-[#F96167] rounded-xl h-min w-max font-semibold px-5">
-            <h1 class=" pt-3 text-yellow-400 drop-shadow-lg">Thunivu One-line</h1>
-            <p class=" pl-5 pb-3"> A mysterious mastermind - Daredevil and his team forms a plan
-              and commits bank heist to find the corporate looted people's money.
-              A mysterious mastermind - Daredevil and his team forms a plan and commits bank heist
-              to find the corporate looted people's money.</p>
+
+      <div class="px-10 py-5 sm:px-40 sm:py-10">
+        <h1 class="font-semibold text-xl pb-2">Thunivu Mass Entry</h1>
+        <a href="https://youtu.be/Buup5qUHmEI?si=tEdbpIrISjMwwZ4T" target="_blank">
+          <div class=" flex items-center p-2 flex-col sm:flex-row bg-rose-500 rounded">
+            <div class=" rounded-xl font-semibold px-2 sm:px-5">
+              <h1 class=" text-yellow-400 drop-shadow-lg">Thunivu One-line</h1>
+              <p class=" pl-2 pb-1 sm:pl-5 "> A mysterious mastermind - Daredevil and his team forms a plan
+                and commits bank heist to find the corporate looted people's money.
+                A mysterious mastermind - Daredevil and his team forms a plan and commits bank heist
+                to find the corporate looted people's money.</p>
+            </div>
+            <video controls autoplay muted loop src="/assets/ak-mass-entry-e24b35f1.mp4" width="320" height="417"
+              class="rounded shadow-xl bg-black p-2 ">
+            </video>
           </div>
-          <video controls autoplay muted loop src="/assets/ak-mass-entry-e24b35f1.mp4" width="360" height="417"
-            class="rounded-xl shadow-xl p-2">
-          </video>
-        </div>
+        </a>
       </div>
 
-      <div class="flex items-center justify-center flex-col sm:flex-row sm:px-10  sm:pb-10 sm:gap-10">
+      <div class="flex items-center justify-center flex-col  my-2 space-y-2 sm:flex-row sm:px-10  sm:pb-5 sm:gap-10">
         <video controls autoplay muted loop src="/assets/ak-loop-1-b39b1426.mp4" class="rounded-s-full  w-72" width="360"
           height="417">
         </video>
-        <video controls autoplay muted loop src="/assets/ak-loop-2-ad3144d5.mp4" class="rounded-3xl  w-72" width="360"
+        <video controls autoplay muted loop src="/assets/ak-loop-2-ad3144d5.mp4" class="rounded-xl  w-72" width="360"
           height="417">
         </video>
         <video controls autoplay muted loop src="/assets/ak-loop-3-d05ba6f3.mp4" class="rounded-e-full  w-72" width="360"
@@ -187,7 +292,7 @@
         </video>
       </div>
 
-      <footer class=" bg-[#F96167]  text-center flex justify-center text-xs">
+      <footer class=" bg-rose-500  text-center flex justify-center text-sm sm:text-base">
         <div class=" p-2 ">
           <p>This is an part of CyberDude Network Internship Program</p>
           <div>
@@ -205,7 +310,7 @@
                         59.75 59.75 0 0 0-48 24h-24a59.75 59.75 0 0 0-48-24a8 8 0 0 0-6.93 4a59.78 59.78 0 0 0-5.38 47.68A58.14 58.14 0 0 0 56 104v8a56.06 56.06 0 0 0 48.44 55.47A39.8 39.8 0 0 0 96 192v8H72a24 24 0 0 1-24-24a40 40 0 0 0-40-40a8 8 0 0 0 0 16a24 24 0 0 1 24 24a40 40 0 0 0 40 40h24v16a8 8 0 0 0 16 0v-40a24 24 0 0 1 48 0v40a8 8 0 0 0 16 0v-40a39.8 39.8 0 0 0-8.44-24.53A56.06 56.06 0 0 0 216 112v-8a58 58 0 0 0-7.7-28.32ZM200 112a40 40 0 0 1-40 40h-48a40 40 0 0 1-40-40v-8a41.74 41.74 0 0 1 6.9-22.48a8 8 0 0 0 1.1-7.69a43.81 43.81 0 0 1 .79-33.58a43.88 43.88 0 0 1 32.32 20.06a8 8 0 0 0 6.71 3.69h32.35a8 8 0 0 0 6.74-3.69a43.87 43.87 0 0 1 32.32-20.06a43.81 43.81 0 0 1 .77 33.58a8.09 8.09 0 0 0 1 7.65a41.76 41.76 0 0 1 7 22.52Z" />
                     </g>
                   </svg></a><span>Esakki.M</span> <a href="https://www.linkedin.com/in/esakki-m/" target="_blank"
-                  class="hover:text-whi  te"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                  class="hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                     viewBox="0 0 256 256">
                     <g fill="currentColor">
                       <path d="M224 40v176a8 8 0 0 1-8 8H40a8 8 0 0 1-8-8V40a8 8 0 0 1 8-8h176a8 8 0 0 1 8 8Z"
